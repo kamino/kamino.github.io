@@ -1,0 +1,304 @@
+# Profile information
+name: Fernand Lone-Sang
+tagline: Security Research Engineer
+pic: profile.png
+
+# Sidebar links
+website: kamino.github.io
+linkedin: fernand-lonesang
+github: kamino
+twitter: '@_kamino_'
+
+# Carrier Profile
+summary: |
+  After tackling challenges on operating system security as Ph.D. research, I
+  currently work at [Quarkslab](https://quarkslab.com) as a Security Researcher.
+  I am interested in reverse engineering and in searching for vulnerabilities
+  in Android, Linux systems. I am always willing to learn new things !
+
+# Experiences
+experiences:
+  - position: Security Research Engineer & Python Software Developer
+    where: >
+      [Quarkslab](https://quarkslab.com), Paris (France)
+    when: Nov. 2013 - Present
+    desc: |
+      * Reverse-engineering of applications in embedded systems.
+      * Vulnerability research on proprietary systems and set-top boxes (Linux,
+        Android 4.x and 5.x).
+      * Mobile application assessments.
+      * Binary patching vulnerabilities (*e.g.*, stagefright) in devices running
+        versions of Android unmaintained by the device manufacturer.
+      * Trainer on Android security: reverse-engineering and application
+        pen-testing.
+      * Core developer for the open-source project IRMA ([http://irma.quarkslab.com](http://irma.quarkslab.com)).
+  - position: Postdoctoral Researcher and Lecturer
+    where: >
+      [INSA](http://www.insa-toulouse.fr/en/) &
+      [LAAS-CNRS](https://www.laas.fr/public/en), Toulouse (France)
+    when: Sept. 2012 - Nov. 2013
+    desc: |
+      * Lectures and labs for student from Bachelor to Master degree level,
+        covering several areas: system programming, computer systems
+        architecture, operating systems, computer security and computer networks.
+      * Research activities covering several topics: vulnerability analysis in
+        hardware platforms, backdoors and Trojans in the hardware,
+        reconfigurable SoCs implemented in the FPGA.
+  - position: Ph.D. Student in Computer Security
+    where: >
+      [INSA](http://www.insa-toulouse.fr/en/) &
+      [LAAS-CNRS](https://www.laas.fr/public/en), Toulouse (France)
+    when: Sept. 2009 - Nov. 2012
+    desc: |
+      * Vulnerability analysis on hardware platforms (mainly, Intel PC)
+        focusing on I/O attacks and hardware counter-measures for these attack
+        vectors.
+      * I developed of a PCI Express controller, called Ironhide, capable of
+        generating any PCI Express frames. It has been used as a proof of
+        concept of backdoored hardware and as a bus-level injection tool for
+        fuzzing hardware logic.
+      * Results presented at SSTIC conference in 2011 and 2012, a French
+        security event.
+  - position: Computer Security Trainee
+    where: >
+      [LAAS-CNRS](https://www.laas.fr/public/en), Toulouse (France)
+    when: Feb. 2009 - July 2012
+    desc: |
+      * Vulnerability Analysis on Intel Virtualization Technology for Directed
+        I/O (VT-d), Intel platforms’ protection against I/O attacks.
+      * Results presented at SSTIC (French event) and MALWARE (international
+        event) in 2010.
+  - position: Trainer & Network Administrator
+    where: >
+      [istef](http://www.istef.fr/) & [iforco](http://www.iforco.fr/)
+    when: June 2007 - Oct. 2007
+    desc: |
+      * C and PHP programming training for people in "Contrat de
+        professionalisation", in "Formation continue entreprises" or benefiting
+        from "Fonds de Gestion des Congés Individuels de Formation (FONGECIF)"
+        (*i.e.*, for professionals mostly).
+      * Installation and administration of computers, and setting up a wireless
+        network for the Iforco professional training school.
+      * Full-time and, from September 2007, part-time job during college.
+
+# Projects
+projects:
+  summary: >
+    I regularly contribute (fix bugs, add new features, etc.) to open-source
+    projects. When I have time, I work on my old side projects, if am not
+    already on a new one.
+  list:
+    - name: >
+        [IronHide](http://ieeexplore.ieee.org/document/6567863/)
+      desc: |
+        PCI Express embedded system implemented on a FPGA, used to sniff PCI 
+        Express requests, fuzz PCIe components and to prove backdoored hardware 
+        dangerousness. It can run on Xilinx Virtex 5 and Virtex 6 FPGA. It is 
+        closed source, by access can be granted on request.
+    - name: >
+        [sedump](https://github.com/ge0n0sis/sedump)
+      desc: |
+        Python utility, built on
+        [setools](https://github.com/TresysTechnology/setools), to deserialize 
+        SELinux binary policies.
+    - name: >
+        [milkymist-various](https://github.com/kamino/milkymist-various/tree/nexys3-port)
+      desc: |
+        Portage of [milkymist](https://github.com/m-labs/milkymist) 
+        (open-source system-on-chip) on Digilent Nexys 2 and Nexys 3 FPGA 
+        development boards.
+
+# Skills
+skills:
+  - name: Reverse Engineering
+    tags:
+      - IDA Pro 
+      - GDB
+  - name: Languages
+    tags:
+      - x86, ARM amd MIPS assembly
+      - C
+      - Python
+      - Perl
+      - PHP
+      - Javascript
+      - Java
+      - Ada
+  - name: Operating System
+    tags: 
+      - Linux and embedded Linux [system administration, low-level system
+        programming and kernel module programming]
+      - Windows [system administration, userland application programming]
+  - name: Hardware Architecture
+    tags:
+      - Intel PC [I/O mechanisms, software attacks involving hardware].
+      - Embedded system prototyping on FPGA
+  - name: Other Skills
+    tags:
+      - Forensic analysis
+      - fuzzing
+      - malware analysis
+  - name: Networking
+    tags:
+      - VPN
+      - tunnels (IPsec, GRE)
+      - firewall (iptables)
+
+# Education
+education:
+  - title: >
+      BADGE Reverse Engineering 
+      ([syllabus](https://www.esiea.fr/badge-reverse-engineering/))
+    where: >
+      [ESIEA](https://en.esiea.fr), Paris (France)
+    when: Jan. 2015 - July 2015
+    desc: >
+      Bilan d’Aptitude Délivré par les Grandes Écoles (Assessment of competency
+      issued by Grandes Écoles) focusing on practical reverse engineering,
+      malware analysis, assembly programming, based on 6 month evening classes.
+  - title: Ph.D. in Computer Science.
+    where: >
+      [INSA](http://www.insa-toulouse.fr/en/) &
+      [LAAS-CNRS](https://www.laas.fr/public/en), Toulouse (France)
+    when: Sept. 2009 - Nov. 2012
+    desc: >
+      Ph.D. thesis presented for defense on November 27, 2012.
+        * Subject: Protecting information systems against I/O attacks.
+        * Jury: M. Kaâniche, J.-L. Lanet, O. Festor, L. Duflot, F. Raynal, Y. Deswarte, V. Nicomette
+        * Dissertation available [online](https://tel.archives-ouvertes.fr/tel-00863020).
+  - title: Engineering Degree
+    where: >
+      [INSA](http://www.insa-toulouse.fr/en/), Toulouse (France)
+    when: Sept. 2004 - June 2009
+    desc: >
+      Degree in computer networks and telecommunications obtained on June 26,
+      2009.
+  - title: High School Diploma
+    where: >
+      [Lycée Francais de Tamatave](https://www.lftamatave.mg/), 
+      Toamasina (Madagascar)
+    when: 2009
+    desc: >
+      High school diploma in science obtained with honors.
+
+# Lectures
+lectures:
+  - course: Android Security - Reverse Engineering & App Pentesting
+    where: >
+      [HITB Amsterdam](http://conference.hitb.org/hitbsecconf2015ams/sessions/tech-training-6-android-security-reverse-engineering-app-pentesting/) 
+      and private trainings for security profesionnals.
+    when: 2015 - Present
+    desc: |
+      Reverse engineering techniques for Android (static and dynamic analysis,
+      Dalvik bytecode and native code instrumentation), malware analysis and
+      mobile application pentesting.
+  - course: Introduction to Reverse Engineering
+    where: >
+      [INSA](http://www.insa-toulouse.fr/en/), Toulouse (France)
+    when: 2012
+    desc: |
+      Course and lab for computer science graduate students: investigating a
+      compromised Windows desktop: analysis of a network dump, analysis of a
+      malicious PDF, reverse engineering a Windows shellcode and a malware.
+  - course: Introduction to binary exploitation
+    where: >
+      [INSA](http://www.insa-toulouse.fr/en/), Toulouse (France)
+    when: 2011 - 2013
+    desc: |
+      Course and lab for computer science graduate students: common software
+      vulnerabilities, modern mitigations and exploitation techniques.
+
+# Publications
+publications:
+  - "*Recherche de vulnérabilités dans les piles USB - approches et outils*,
+    Jordan Bouyat and Fernand Lone Sang, In Proceedings of the Symposium sur la
+    Sécurité des Technologies de l’Information et des Communications (SSTIC
+    2014), pages 305–331, Rennes (France), June 1–3 2014. 
+    [[slides]](https://www.sstic.org/media/SSTIC2014/SSTIC-actes/recherche_de_vulnrabilits_dans_les_piles_usb__appr/SSTIC2014-Slides-recherche_de_vulnrabilits_dans_les_piles_usb__approches_et_outils-lone-sang_bouyat.pdf)
+    [[article]](https://www.sstic.org/media/SSTIC2014/SSTIC-actes/recherche_de_vulnrabilits_dans_les_piles_usb__appr/SSTIC2014-Article-recherche_de_vulnrabilits_dans_les_piles_usb__approches_et_outils-lone-sang_bouyat_2.pdf)"
+  - "*A Tool to Analyze Potential I/O Attacks Against PCs*, Fernand Lone Sang,
+    Vincent Nicomette, and Yves Deswarte, Security & Privacy, 12(2):60–66,
+    March–April 2014. [[article]](http://ieeexplore.ieee.org/document/6567863/)"
+  - "*Protection des systèmes informatiques contre les attaques par
+    entrées-sorties*, Fernand Lone Sang, PhD thesis, Institut National des
+    Sciences Appliquées (INSA) de Toulouse, March 2013. Defended on November 27 
+    2012 at LAAS-CNRS, Toulouse (France).
+    [[manuscript]](https://tel.archives-ouvertes.fr/tel-00863020/document)"
+  - "*Protection des systèmes informatiques contre les attaques par
+    entrées-sorties*, Fernand Lone Sang, February 5 2013, CRYPTIS, Limoges
+    (France)."
+  - "*La sécurité dans les couches basses du logiciel: attaques et
+    contre-mesures*, Vincent Nicomette, Fernand Lone Sang, Éric Alata, Yves
+    Deswarte, April 5 2013, SSI Seminar, Rennes (France).
+    [[slides]](http://seminaire-dga.gforge.inria.fr/2012/20130405_VincentNicomette.pdf)"
+  - "*IronHide - Plate-forme d’attaques par entrées-sorties*, Fernand Lone
+    Sang, Vincent Nicomette, and Yves Deswarte, In Proceedings of the Symposium
+    sur la Sécurité des Technologies de l’Information et des Communications
+    (SSTIC 2012), pages 237–265, Rennes (France), June 6–8 2012.
+    [[slides]](https://www.sstic.org/media/SSTIC2012/SSTIC-actes/IronHide/SSTIC2012-Slides-IronHide-lone-sang_nicomette_deswarte.pdf) 
+    [[article]](https://www.sstic.org/media/SSTIC2012/SSTIC-actes/IronHide/SSTIC2012-Article-IronHide-lone-sang_nicomette_deswarte_1.pdf)"
+  - "*Attaques DMA peer-to-peer et contremesures*, Fernand Lone Sang, Vincent
+    Nicomette, Yves Deswarte, and Loïc Duflot, talk at
+    the Observatoire de la Sécurité des Systèmes d’Information et des Réseaux
+    (OSSIR) – RéSIST, January 17 2012. [[slides]](http://www.
+    ossir.org/resist/supports/cr/2012/2012-01-17/F_Lone_Sang.pdf)"
+  - "*Attaques DMA peer-to-peer et contremesures*, Fernand Lone Sang, Vincent
+    Nicomette, Yves Deswarte, and Loïc Duflot, In Proceedings of the Symposium
+    sur la Sécurité des Technologies de l’Information et des Communications
+    (SSTIC 2011), pages 147–174, Rennes (France), June 8–10 2011. 
+    [[slides]](https://www.sstic.org/2011/presentation/attaques_dma_peer-to-peer_et_contremesures)"
+  - "*Les entrées/sorties - principes, attaques et contre-mesures*, Fernand
+    Lone Sang and Yves-Alexis Perez, Multi-System & Internet Security Cookbook
+    (MISC), (58):25–32, November–December 2011. 
+    [[article]](http://www.ed-diamond.com/produit.php?ref=misc58)"
+  - "*I/O attacks in Intel PC-based architectures and countermeasures*, Fernand
+    Lone Sang, Vincent Nicomette, and Yves Deswarte, In Proceedings of the 1st
+    SysSec Workshop, pages 18–25, Amsterdam (The Netherlands), July 6 2011.
+    [[article]](http://www.syssec-project.eu/media/page-media/3/syssec-d2.3-1st-project-workshop-proceedings.pdf)"
+  - "*Attaques par entrée-sortie et contremesures*, Fernand Lone Sang, Vincent
+    Nicomette, and Yves Deswarte, In Proceedings of the Journée Sécurité des
+    Systèmes & Sureté des Logiciels (3SL), pages 11–13, Saint-Malo (France),
+    May 10 2011. [[article]](http://www.univ-orleans.fr/lifo/evenements/3SL/actes/3sl.pdf)"
+  - "*Analyse de l’efficacité du service fourni par une IOMMU*, Fernand Lone
+    Sang, Éric Lacombe, Vincent Nicomette, and Yves Deswarte, In Proceedings of
+    the Symposium sur la Sécurité des Technologies de l’Information et des
+    Communications (SSTIC 2010), pages 189–214, Rennes (France), June 9–11
+    2010.
+    [[slides]](https://www.sstic.org/media/SSTIC2010/SSTIC-actes/Analyse_de_l_efficacite_du_service_fourni_par_une_/SSTIC2010-Article-Analyse_de_l_efficacite_du_service_fourni_par_une_IOMMU-lacombe_lone-sang_nicomette_deswarte.pdf) 
+    [[article]](https://www.sstic.org/media/SSTIC2010/SSTIC-actes/Analyse_de_l_efficacite_du_service_fourni_par_une_/SSTIC2010-Slides-Analyse_de_l_efficacite_du_service_fourni_par_une_IOMMU-lacombe_lone-sang_nicomette_deswarte.pdf)"
+  - "*Exploiting an I/OMMU vulnerability*, Fernand Lone Sang, Éric Lacombe,
+    Vincent Nicomette, and Yves Deswarte, In Proceedings of the International
+    Conference on Malicious and Unwanted Software (MALWARE 2010), pages 9–16,
+    Nancy (France), October 19–20 2010. 
+    [[article]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5665798)"
+
+# Interests
+interests:
+  - name: Volunteering Experience
+    desc: >
+      Helped to build the computer security course at INSA de Toulouse: writing
+      labs and lectures on reverse-engineering, software vulnerabilities;
+      Helped to kick off the INSA’s computer security challenge, a CTF-like
+      challenge on an entire day, for master students.
+      Program committee for SSTIC conference, a French security event, in 2013 and 2014.
+  - name: Hacking wargames
+    desc: >
+      I sometimes do hacking wargames and help friends with CTFs. I mostly
+      read public write-ups to keep up now as I have less and less time to
+      solve them.
+  - name: Electronics
+    desc: >
+      I like to teardown electronic devices, try to understand how it works and
+      how to hack them. Although my skills in electronics is light, I manage to
+      get the expected result putting efforts and time.
+  - name: Travel
+    desc: >
+      I have been travelling around a several countries in (East) Asia for the
+      past few years, and I still have a lot of things and places to discover.
+
+# Language
+language:
+  - name: French
+    desc: Native
+  - name: English
+    desc: Professional
