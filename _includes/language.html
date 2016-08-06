@@ -1,0 +1,8 @@
+<div class="languages-container container-block">
+<h2 class="container-block-title">Languages</h2>
+<ul class="list-unstyled interests-list">
+{% for lang in site.data.resume.language %}
+    <li>{{ lang.name }}{% if lang.desc %} <span class="lang-desc">({{ lang.desc }})</span>{% endif %}</li>
+{% endfor %}
+</ul>
+</div>

@@ -1,0 +1,10 @@
+<section class="section summary-section">
+    <h2 class="section-title"><i class="fa fa-book"></i>Publications & Talks</h2>
+
+    {% for publication in site.data.resume.publications %}
+    <div>
+        {{ publication | markdownify }}
+    </div>
+    {% endfor %}
+
+</section>

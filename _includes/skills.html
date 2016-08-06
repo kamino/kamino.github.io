@@ -1,0 +1,16 @@
+<section class="skills-section section">
+    <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+
+    <div class="skillset">
+        {% for skill in site.data.resume.skills %}
+        <div class="item">
+            <h3 class="level-title">{{ skill.name }}</h3>
+            <div class="col-md-8">
+                {% for label in skill.tags | split:"," %}
+                <span class="label label-default">{{ label }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>  
+</section>

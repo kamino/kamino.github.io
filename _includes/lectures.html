@@ -1,0 +1,19 @@
+<section class="section experiences-section">
+    <h2 class="section-title"><i class="fa fa-bolt"></i>Trainings &amp; Lectures</h2>
+
+    {% for lecture in site.data.resume.lectures %}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">{{ lecture.course }}</h3>
+                <div class="time">{{ lecture.when }}</div>
+            </div>
+	    <div class="company">{{ lecture.where | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        </div>
+        <div class="details">
+            {{ lecture.desc | markdownify }}
+        </div>
+    </div>
+    {% endfor %}
+
+</section>

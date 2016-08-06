@@ -1,0 +1,45 @@
+<div class="sidebar-wrapper">
+    <div class="profile-container">
+        {% if site.data.resume.pic %}
+        <img class="profile-img" src="{{site.baseurl}}/assets/images/{{site.data.resume.pic}}" alt="profile picture" />
+        {% endif %}
+        {% if site.data.resume.name %}
+        <h1 class="name">{{site.data.resume.name}}</h1>
+        {% endif %}
+        {% if site.data.resume.tagline %}
+        <h3 class="tagline">{{site.data.resume.tagline}}</h3>
+        {% endif %}
+    </div>
+
+    <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+
+            {% if site.data.resume.email %}
+            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.data.resume.email}}">{{site.data.resume.email}}</a></li>
+            {% endif %}
+
+            {% if site.data.resume.phone %}
+            <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.data.resume.phone}}">{{site.data.resume.phone}}</a></li>
+            {% endif %}
+
+            {% if site.data.resume.website %}
+            <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.data.resume.website}}" target="_blank">{{site.data.resume.website}}</a></li>
+            {% endif %}
+
+            {% if site.data.resume.linkedin %}
+            <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.data.resume.linkedin}}" target="_blank">linkedin.com/in/{{site.data.resume.linkedin}}</a></li>
+            {% endif %}
+
+            {% if site.data.resume.github %}
+            <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.data.resume.github}}" target="_blank">github.com/{{site.data.resume.github}}</a></li>
+            {% endif %}
+
+            {% if site.data.resume.twitter %}
+            <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.data.resume.twitter}}" target="_blank">{{site.data.resume.twitter}}</a></li>
+            {% endif %}
+
+        </ul>
+    </div>
+
+    {% include language.html %}
+</div>

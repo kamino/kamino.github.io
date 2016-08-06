@@ -1,0 +1,18 @@
+<section class="section projects-section">
+    <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+
+    <div class="intro">                                                               
+        {{ site.data.resume.projects.summary | markdownify }}
+    </div>
+
+    {% for project in site.data.resume.projects.list %}
+    <div class="item">
+        <span class="project-title">
+            {{ project.name | markdownify | remove: '<p>' | remove: '</p>' }}
+        </span> - <span class="project-tagline">
+            {{ project.desc | markdownify | remove: '<p>' | remove: '</p>' }}
+        </span>
+    </div>
+    {% endfor %}
+
+</section>

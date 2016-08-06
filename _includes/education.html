@@ -1,0 +1,19 @@
+<section class="section experience-section">
+    <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
+
+    {% for education in site.data.resume.education %}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">{{ education.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+                <div class="time">{{ education.when }}</div>
+            </div>
+        <div class="company">{{ education.where | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        </div>
+        <div class="details">
+            {{ education.desc | markdownify }}
+        </div>
+    </div>
+    {% endfor %}
+
+</section>

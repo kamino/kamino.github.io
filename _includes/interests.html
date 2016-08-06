@@ -1,0 +1,13 @@
+<section class="interest-section section">
+    <h2 class="section-title"><i class="fa fa-heart"></i>Interests</h2>
+
+    <div class="skillset">        
+        {% for interest in site.data.resume.interests %}
+        <div class="item">
+            <h3 class="level-title">{{ interest.name }}</h3>
+            <div class="col-md-8">{{ interest.desc }}</div>
+        </div>
+        {% endfor %}
+    </div>  
+
+</section>
