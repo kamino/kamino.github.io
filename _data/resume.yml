@@ -213,6 +213,11 @@ lectures:
 
 # Publications
 publications:
+  - "**Reverse Engineering Samsung S6 SBOOT - Part I**, Fernand Lone Sang, March 2017, Quarkslab's blog.
+    [[article]](http://blog.quarkslab.com/reverse-engineering-samsung-s6-sboot-part-i.html) 
+    [[chinese translation by seebug.org]](http://paper.seebug.org/242/)"
+  - "**Exploring Android's SELinux Kernel Policy**, Fernand Lone Sang, December 2015, ge0n0sis's blog. 
+    [[article]](https://ge0n0sis.github.io/posts/2015/12/exploring-androids-selinux-kernel-policy/)"
   - "**Recherche de vulnérabilités dans les piles USB - approches et outils**,
     Jordan Bouyat and Fernand Lone Sang, In Proceedings of the Symposium sur la
     Sécurité des Technologies de l’Information et des Communications (SSTIC
