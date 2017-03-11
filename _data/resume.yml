@@ -216,7 +216,7 @@ publications:
   - "**Recherche de vulnérabilités dans les piles USB - approches et outils**,
     Jordan Bouyat and Fernand Lone Sang, In Proceedings of the Symposium sur la
     Sécurité des Technologies de l’Information et des Communications (SSTIC
-    2014), pages 305–331, Rennes (France), June 1–3 2014. 
+    2014), pages 305–331, Rennes (France), June 2014. 
     [[slides]](https://www.sstic.org/media/SSTIC2014/SSTIC-actes/recherche_de_vulnrabilits_dans_les_piles_usb__appr/SSTIC2014-Slides-recherche_de_vulnrabilits_dans_les_piles_usb__approches_et_outils-lone-sang_bouyat.pdf)
     [[article]](https://www.sstic.org/media/SSTIC2014/SSTIC-actes/recherche_de_vulnrabilits_dans_les_piles_usb__appr/SSTIC2014-Article-recherche_de_vulnrabilits_dans_les_piles_usb__approches_et_outils-lone-sang_bouyat_2.pdf)"
   - "**A Tool to Analyze Potential I/O Attacks Against PCs**, Fernand Lone Sang,
@@ -228,27 +228,27 @@ publications:
     2012 at LAAS-CNRS, Toulouse (France).
     [[manuscript]](https://tel.archives-ouvertes.fr/tel-00863020/document)"
   - "**Protection des systèmes informatiques contre les attaques par
-    entrées-sorties**, Fernand Lone Sang, February 5 2013, CRYPTIS, Limoges
+    entrées-sorties**, Fernand Lone Sang, February 2013, CRYPTIS, Limoges
     (France)."
   - "**La sécurité dans les couches basses du logiciel: attaques et
     contre-mesures**, Vincent Nicomette, Fernand Lone Sang, Éric Alata, Yves
-    Deswarte, April 5 2013, SSI Seminar, Rennes (France).
+    Deswarte, April 2013, SSI Seminar, Rennes (France).
     [[slides]](http://seminaire-dga.gforge.inria.fr/2012/20130405_VincentNicomette.pdf)"
   - "**IronHide - Plate-forme d’attaques par entrées-sorties**, Fernand Lone
     Sang, Vincent Nicomette, and Yves Deswarte, In Proceedings of the Symposium
     sur la Sécurité des Technologies de l’Information et des Communications
-    (SSTIC 2012), pages 237–265, Rennes (France), June 6–8 2012.
+    (SSTIC 2012), pages 237–265, Rennes (France), June 2012.
     [[slides]](https://www.sstic.org/media/SSTIC2012/SSTIC-actes/IronHide/SSTIC2012-Slides-IronHide-lone-sang_nicomette_deswarte.pdf) 
     [[article]](https://www.sstic.org/media/SSTIC2012/SSTIC-actes/IronHide/SSTIC2012-Article-IronHide-lone-sang_nicomette_deswarte_1.pdf)"
   - "**Attaques DMA peer-to-peer et contremesures**, Fernand Lone Sang, Vincent
     Nicomette, Yves Deswarte, and Loïc Duflot, talk at
     the Observatoire de la Sécurité des Systèmes d’Information et des Réseaux
-    (OSSIR) – RéSIST, January 17 2012. [[slides]](http://www.
+    (OSSIR) – RéSIST, January 2012. [[slides]](http://www.
     ossir.org/resist/supports/cr/2012/2012-01-17/F_Lone_Sang.pdf)"
   - "**Attaques DMA peer-to-peer et contremesures**, Fernand Lone Sang, Vincent
     Nicomette, Yves Deswarte, and Loïc Duflot, In Proceedings of the Symposium
     sur la Sécurité des Technologies de l’Information et des Communications
-    (SSTIC 2011), pages 147–174, Rennes (France), June 8–10 2011. 
+    (SSTIC 2011), pages 147–174, Rennes (France), June 2011. 
     [[slides]](https://www.sstic.org/2011/presentation/attaques_dma_peer-to-peer_et_contremesures)"
   - "**Les entrées/sorties - principes, attaques et contre-mesures**, Fernand
     Lone Sang and Yves-Alexis Perez, Multi-System & Internet Security Cookbook
@@ -256,23 +256,23 @@ publications:
     [[article]](http://www.ed-diamond.com/produit.php?ref=misc58)"
   - "**I/O attacks in Intel PC-based architectures and countermeasures**, Fernand
     Lone Sang, Vincent Nicomette, and Yves Deswarte, In Proceedings of the 1st
-    SysSec Workshop, pages 18–25, Amsterdam (The Netherlands), July 6 2011.
+    SysSec Workshop, pages 18–25, Amsterdam (The Netherlands), July 2011.
     [[article]](http://www.syssec-project.eu/media/page-media/3/syssec-d2.3-1st-project-workshop-proceedings.pdf)"
   - "**Attaques par entrée-sortie et contremesures**, Fernand Lone Sang, Vincent
     Nicomette, and Yves Deswarte, In Proceedings of the Journée Sécurité des
     Systèmes & Sureté des Logiciels (3SL), pages 11–13, Saint-Malo (France),
-    May 10 2011. [[article]](http://www.univ-orleans.fr/lifo/evenements/3SL/actes/3sl.pdf)"
+    May 2011. [[article]](http://www.univ-orleans.fr/lifo/evenements/3SL/actes/3sl.pdf)"
   - "**Analyse de l’efficacité du service fourni par une IOMMU**, Fernand Lone
     Sang, Éric Lacombe, Vincent Nicomette, and Yves Deswarte, In Proceedings of
     the Symposium sur la Sécurité des Technologies de l’Information et des
-    Communications (SSTIC 2010), pages 189–214, Rennes (France), June 9–11
+    Communications (SSTIC 2010), pages 189–214, Rennes (France), June
     2010.
     [[slides]](https://www.sstic.org/media/SSTIC2010/SSTIC-actes/Analyse_de_l_efficacite_du_service_fourni_par_une_/SSTIC2010-Article-Analyse_de_l_efficacite_du_service_fourni_par_une_IOMMU-lacombe_lone-sang_nicomette_deswarte.pdf) 
     [[article]](https://www.sstic.org/media/SSTIC2010/SSTIC-actes/Analyse_de_l_efficacite_du_service_fourni_par_une_/SSTIC2010-Slides-Analyse_de_l_efficacite_du_service_fourni_par_une_IOMMU-lacombe_lone-sang_nicomette_deswarte.pdf)"
   - "**Exploiting an I/OMMU vulnerability**, Fernand Lone Sang, Éric Lacombe,
     Vincent Nicomette, and Yves Deswarte, In Proceedings of the International
     Conference on Malicious and Unwanted Software (MALWARE 2010), pages 9–16,
-    Nancy (France), October 19–20 2010. 
+    Nancy (France), October 2010. 
     [[article]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5665798)"
 
 # Interests
