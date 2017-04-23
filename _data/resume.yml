@@ -76,7 +76,7 @@ experiences:
   - position: Computer Security Intern
     where: >
       [LAAS-CNRS](https://www.laas.fr/public/en), Toulouse (France)
-    when: Feb. 2009 - July 2012
+    when: Feb. 2009 - July 2009
     desc: |
       * Vulnerability research on Intel Virtualization Technology for
         Directed I/O (VT-d).
@@ -290,7 +290,7 @@ interests:
   - name: Electronics
     desc: >
       I like to teardown electronic devices, try to understand how it works and
-      how to hack them. Although my skills in electronics is light, I manage to
+      how to hack them. Although my skills in electronics are light, I manage to
       get the expected result putting efforts and time.
   - name: Travel
     desc: >
